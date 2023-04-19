@@ -8,7 +8,7 @@ for i in range(1,x+1):
    print()
 # checking the number is polyndrum
 rev=0
-num=int(input("Enter number : ")
+num=int(input("Enter number : "))
 while(num):
   rev=rev*10 + (num%10)
   num=num/10
@@ -16,3 +16,17 @@ if(num==rev):
    print("this number is polyndrum")
 else:
   print("this number is not polyndrum")
+   
+   
+ # check the number is armstrong number
+ sum=0
+ num=int(input("Enter the number : "))
+ while(num):
+   dig=num%10
+   sum=sum+dig*dig*dig
+   num=num%10
+if(num==sum):
+   print("This number is armstrong number")
+else:
+   print("this is not armstrong number")
+ 
