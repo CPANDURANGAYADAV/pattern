@@ -29,6 +29,8 @@ if(num==sum):
    print("This number is armstrong number")
 else:
    print("this is not armstrong number")
+   
+   
 # finding the areas
 h=float(input("Enter hight of triangle :))
 bs=float(input("Enter base of triangle :))
@@ -38,6 +40,33 @@ b=float(input("Enter the base of the rectangle :))
 print("Area of triangle is : ",0.5*h*bs)
 print("Area of squere is : ",s*s)
 print("Area of rectangle is : ",l*b)
+  
+ 
+ #swapping three elements
+ print("Enter the three numbers : ")
+ a=int(input())
+ b=int(input())
+ c=int(input())
+ if((a<b and b<c) or ((b<a and a<c and t=a and a=b and b=a ) or ((c<a and a<b and 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 
 
  
