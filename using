@@ -51,6 +51,16 @@ print("Area of rectangle is : ",l*b)
     pass
  print(a,b,c)
  
+ #triangle pattern
+ n=int(input("Enter the number of rows :"))
+for i in range(n):
+    for j in range(1,2*n):
+        if(n-i<=j and j<=n+i):
+            print("*",end='')
+        else:
+            print(" ",end='')
+    print()
+ 
  
  
  
